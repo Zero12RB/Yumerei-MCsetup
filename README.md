@@ -15,7 +15,7 @@ Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu h
 
 ## ✨ Tính năng chính
 
-* ⚡ **Cài đặt 1-Click:** Tự động chuẩn bị môi trường và các phụ thuộc cần thiết.
+* ⚡ **Cài đặt siêu nhanh:** Tự động chuẩn bị môi trường và các phụ thuộc cần thiết.
 * 🖥️ **Giao diện Panel tiện lợi:** Quản lý máy chủ dễ dàng thông qua menu điều khiển trực quan.
 * ☕ **Hỗ trợ đa phiên bản Java:** Tự động tải và cấu hình các phiên bản Java phù hợp.
 * 🛡️ **Tối ưu hóa máy chủ:** Cấu hình sẵn giúp giảm lag và tối ưu hiệu năng VPS/Server.
