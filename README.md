@@ -5,7 +5,7 @@ Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu h
 
 ---
 
-## ℹ️ Thông tin Máy chủ & Phụ kiện
+## ℹ️ Thông tin Máy chủ & Plugins
 
 * **Server Core:** Fabric 
 * **Phiên bản:** `26.2` *(Phiên bản hiện tại)*
