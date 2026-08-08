@@ -71,13 +71,3 @@ chmod +x install-yumereiii.sh
 
 ```
 
----
-
-### 💡 Hướng dẫn tạo file trên GitHub:
-1. Truy cập vào giao diện Repo [Zero12RB/Yumerei-MCsetup](https://github.com/Zero12RB/Yumerei-MCsetup).
-2. Nhấn vào nút **Add file** $\rightarrow$ chọn **Create new file**.
-3. Tại ô tên file, nhập: `README.md`.
-4. Copy toàn bộ nội dung trong khung phía trên dán vào phần soạn thảo.
-5. Cuộn xuống cuối trang và nhấn **Commit changes...** để hoàn tất!
-
-```
