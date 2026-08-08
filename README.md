@@ -17,7 +17,7 @@ Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu h
 
 * ⚡ **Cài đặt siêu nhanh:** Tự động chuẩn bị môi trường và các phụ thuộc cần thiết.
 * 🖥️ **Giao diện Panel tiện lợi:** Quản lý máy chủ dễ dàng thông qua menu điều khiển trực quan.
-* ☕ **Hỗ trợ đa phiên bản Java:** Tự động tải và cấu hình các phiên bản Java phù hợp.
+* ☕ **Hỗ trợ đa phiên bản :** Có tích hợp Geyser + Floodgate dành cho người chơi Bedrock tham gia.
 * 🛡️ **Tối ưu hóa máy chủ:** Cấu hình sẵn giúp giảm lag và tối ưu hiệu năng VPS/Server.
 * 🔄 **Mở lại Panel dễ dàng:** Mở lại bảng điều khiển bất cứ lúc nào bằng lệnh với tham số `--panel`.
 * 🧹 **Khôi phục khẩn cấp (Emergency Reset):** Script làm sạch hoàn toàn giúp reset về trạng thái ban đầu khi gặp sự cố.
