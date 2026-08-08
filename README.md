@@ -1,6 +1,4 @@
-Dưới đây là mẫu file **`README.md`** chuẩn, chuyên nghiệp và đầy đủ cho dự án **Yumerei-MCsetup** của bạn trên GitHub:
 
-```markdown
 # 🎮 Yumerei-MCsetup
 
 Một bộ script tự động hỗ trợ cài đặt và thiết lập máy chủ Minecraft trên Linux nhanh chóng và tiện lợi.
