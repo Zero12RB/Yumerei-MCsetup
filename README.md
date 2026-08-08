@@ -1,7 +1,15 @@
 
 # 🎮 Yumerei-MCsetup
 
-Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu hóa máy chủ Minecraft trên Linux một cách nhanh chóng, tiện lợi qua giao diện Panel tiện ích.
+Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu hóa máy chủ Minecraft **Fabric** trên Linux một cách nhanh chóng, tiện lợi qua giao diện Panel tiện ích.
+
+---
+
+## ℹ️ Thông tin Máy chủ & Phụ kiện
+
+* **Server Core:** Fabric 
+* **Phiên bản:** `26.2` *(Phiên bản hiện tại)*
+* **Bộ Plugin / Modpack cho Server:** [Mcpackfabric26.2set](https://github.com/namvietnamfight-hub/Mcpackfabric26.2set)
 
 ---
 
@@ -9,10 +17,10 @@ Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu h
 
 * ⚡ **Cài đặt 1-Click:** Tự động chuẩn bị môi trường và các phụ thuộc cần thiết.
 * 🖥️ **Giao diện Panel tiện lợi:** Quản lý máy chủ dễ dàng thông qua menu điều khiển trực quan.
-* ☕ **Hỗ trợ đa phiên bản Java:** Tự động tải và cấu hình các phiên bản Java phù hợp cho từng phiên bản Minecraft.
+* ☕ **Hỗ trợ đa phiên bản Java:** Tự động tải và cấu hình các phiên bản Java phù hợp.
 * 🛡️ **Tối ưu hóa máy chủ:** Cấu hình sẵn giúp giảm lag và tối ưu hiệu năng VPS/Server.
-* 🔄 **Dễ dàng mở lại Panel:** Mở lại bảng điều khiển bất cứ lúc nào chỉ với tham số `--panel`.
-* 🧹 **Hỗ trợ khôi phục khẩn cấp (Emergency Reset):** Script làm sạch hoàn toàn giúp reset về trạng thái ban đầu khi gặp sự cố.
+* 🔄 **Mở lại Panel dễ dàng:** Mở lại bảng điều khiển bất cứ lúc nào bằng lệnh với tham số `--panel`.
+* 🧹 **Khôi phục khẩn cấp (Emergency Reset):** Script làm sạch hoàn toàn giúp reset về trạng thái ban đầu khi gặp sự cố.
 
 ---
 
@@ -85,7 +93,7 @@ Trong trường hợp xảy ra lỗi nghiêm trọng hoặc bạn muốn **xóa 
 
 ```bash
 cd Yumerei-MCsetup
-chmod +x uninstall-yumereiii.sh  # Cấp quyền cho file dọn dẹp (nếu cần)
+chmod +x uninstall-yumereiii.sh  # Cấp quyền cho file dọn dẹp (nếu chưa có)
 ./uninstall-yumereiii.sh          # Chạy script xóa sạch dữ liệu
 
 ```
@@ -103,7 +111,7 @@ chmod +x uninstall-yumereiii.sh  # Cấp quyền cho file dọn dẹp (nếu c�
 
 ## 👤 Tác giả
 
-* **GitHub:** [@Zero12RB](https://www.google.com/search?q=https://github.com/Zero12RB)
+* **GitHub:** [@Zero12RB](https://github.com/Zero12RB)
 
 ```
 
