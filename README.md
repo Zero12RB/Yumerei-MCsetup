@@ -1,30 +1,30 @@
 
 # 🎮 Yumerei-MCsetup
 
-Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu hóa máy chủ Minecraft **Fabric** trên Linux một cách nhanh chóng, tiện lợi qua giao diện Panel tiện ích.
+Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu hóa máy chủ Minecraft Fabric trên Linux một cách nhanh chóng và tiện lợi qua giao diện Panel tiện ích.
 
 ---
 
-## ℹ️ Thông tin Máy chủ & Plugins
+## ℹ️ Thông tin Máy chủ và Phụ kiện
 
-* **Server Core:** Fabric 
-* **Phiên bản:** `26.2` *(Phiên bản hiện tại)*
-* **Bộ Plugin / Modpack cho Server:** [Mcpackfabric26.2set](https://github.com/namvietnamfight-hub/Mcpackfabric26.2set)
+* **Server Core:** Fabric
+* **Phiên bản hiện tại:** 26.2
+* **Bộ Plugin và Modpack cho Server:** https://github.com/namvietnamfight-hub/Mcpackfabric26.2set
 
 ---
 
 ## ✨ Tính năng chính
 
-* ⚡ **Cài đặt siêu nhanh:** Tự động chuẩn bị môi trường và các phụ thuộc cần thiết.
+* ⚡ **Cài đặt 1-Click:** Tự động chuẩn bị môi trường và các phụ thuộc cần thiết.
 * 🖥️ **Giao diện Panel tiện lợi:** Quản lý máy chủ dễ dàng thông qua menu điều khiển trực quan.
-* ☕ **Hỗ trợ đa phiên bản :** Có tích hợp Geyser + Floodgate dành cho người chơi Bedrock tham gia.
-* 🛡️ **Tối ưu hóa máy chủ:** Cấu hình sẵn giúp giảm lag và tối ưu hiệu năng VPS/Server.
+* ☕ **Hỗ trợ đa phiên bản Java:** Tự động tải và cấu hình các phiên bản Java phù hợp.
+* 🛡️ **Tối ưu hóa máy chủ:** Cấu hình sẵn giúp giảm lag và tối ưu hiệu năng VPS hoặc Server.
 * 🔄 **Mở lại Panel dễ dàng:** Mở lại bảng điều khiển bất cứ lúc nào bằng lệnh với tham số `--panel`.
-* 🧹 **Khôi phục khẩn cấp (Emergency Reset):** Script làm sạch hoàn toàn giúp reset về trạng thái ban đầu khi gặp sự cố.
+* 🧹 **Khôi phục khẩn cấp Emergency Reset:** Script làm sạch hoàn toàn giúp reset về trạng thái ban đầu khi gặp sự cố.
 
 ---
 
-## 🚀 Cài đặt nhanh (One-liner)
+## 🚀 Cài đặt nhanh
 
 Chạy duy nhất câu lệnh sau trên Terminal Linux để tự động cài đặt `git`, tải repository và khởi chạy script:
 
@@ -39,7 +39,7 @@ sudo bash -c "if ! command -v git &> /dev/null; then if command -v apt-get &> /d
 
 Nếu muốn tự thực hiện từng bước:
 
-### 1. Cài đặt Git (nếu máy chưa có)
+### 1. Cài đặt Git nếu máy chưa có
 
 * **Ubuntu/Debian:**
 ```bash
@@ -58,7 +58,7 @@ sudo dnf install -y git
 
 
 
-### 2. Clone Repository & Cài đặt
+### 2. Clone Repository và Cài đặt
 
 ```bash
 # Tải repository
@@ -75,9 +75,9 @@ chmod +x install-yumereiii.sh
 
 ---
 
-## 🖥️ Mở lại bảng điều khiển (Panel)
+## 🖥️ Mở lại bảng điều khiển Panel
 
-Nếu bạn đã thoát ra ngoài Terminal và muốn **mở lại giao diện Panel** để quản lý server, chỉ cần chạy lại file script với tham số `--panel`:
+Nếu bạn đã thoát ra ngoài Terminal và muốn mở lại giao diện Panel để quản lý server, chỉ cần chạy lại file script với tham số `--panel`:
 
 ```bash
 cd Yumerei-MCsetup
@@ -87,32 +87,28 @@ cd Yumerei-MCsetup
 
 ---
 
-## 🚨 Xóa sạch & Cài đặt lại từ đầu (Khẩn cấp)
+## 🚨 Xóa sạch và Cài đặt lại từ đầu - Khẩn cấp
 
-Trong trường hợp xảy ra lỗi nghiêm trọng hoặc bạn muốn **xóa sạch toàn bộ cấu hình cũ** để làm lại từ đầu, hãy chạy file script dọn dẹp khẩn cấp:
+Trong trường hợp xảy ra lỗi nghiêm trọng hoặc bạn muốn xóa sạch toàn bộ cấu hình cũ để làm lại từ đầu, hãy chạy file script dọn dẹp khẩn cấp:
 
 ```bash
 cd Yumerei-MCsetup
-chmod +x uninstall-yumereiii.sh  # Cấp quyền cho file dọn dẹp (nếu chưa có)
-./uninstall-yumereiii.sh          # Chạy script xóa sạch dữ liệu
+chmod +x uninstall-yumereiii.sh
+./uninstall-yumereiii.sh
 
 ```
 
-> ⚠️ **Lưu ý:** Thao tác này sẽ xóa toàn bộ dữ liệu máy chủ và cấu hình liên quan. Hãy cân nhắc sao lưu (backup) trước khi thực hiện!
+⚠️ **Lưu ý:** Thao tác này sẽ xóa toàn bộ dữ liệu máy chủ và cấu hình liên quan. Hãy cân nhắc sao lưu dữ liệu trước khi thực hiện!
 
 ---
 
 ## 📋 Yêu cầu hệ thống
 
-* **Hệ điều hành:** Linux (Ubuntu, Debian, CentOS, AlmaLinux, v.v.)
-* Quyền **`sudo`** hoặc tài khoản **`root`**
+* **Hệ điều hành:** Linux như Ubuntu, Debian, CentOS, AlmaLinux
+* Quyền **sudo** hoặc tài khoản **root**
 
 ---
 
 ## 👤 Tác giả
 
-* **GitHub:** [@Zero12RB](https://github.com/Zero12RB)
-
-```
-
-```
+* **GitHub:** https://github.com/Zero12RB
