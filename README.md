@@ -62,8 +62,7 @@ sudo dnf install -y git
 
 ```bash
 # Tải repository
-git clone [https://github.com/Zero12RB/Yumerei-MCsetup.git](https://github.com/Zero12RB/Yumerei-MCsetup.git)
-
+git clone https://github.com/Zero12RB/Yumerei-MCsetup.git
 # Di chuyển vào thư mục dự án
 cd Yumerei-MCsetup
 
