@@ -29,7 +29,7 @@ Một bộ công cụ tự động giúp cài đặt, quản lý và tối ưu h
 Chạy duy nhất câu lệnh sau trên Terminal Linux để tự động cài đặt `git`, tải repository và khởi chạy script:
 
 ```bash
-sudo bash -c "if ! command -v git &> /dev/null; then if command -v apt-get &> /dev/null; then apt-get update -y && apt-get install -y git; elif command -v dnf &> /dev/null; then dnf install -y git; elif command -v yum &> /dev/null; then yum install -y git; fi; fi && git clone [https://github.com/Zero12RB/Yumerei-MCsetup.git](https://github.com/Zero12RB/Yumerei-MCsetup.git) && cd Yumerei-MCsetup && chmod +x install-yumereiii.sh && ./install-yumereiii.sh"
+sudo bash -c "if ! command -v git > /dev/null 2>&1; then if command -v apt-get > /dev/null 2>&1; then apt-get update -y && apt-get install -y git; elif command -v dnf > /dev/null 2>&1; then dnf install -y git; elif command -v yum > /dev/null 2>&1; then yum install -y git; fi; fi && git clone https://github.com/Zero12RB/Yumerei-MCsetup.git && cd Yumerei-MCsetup && chmod +x install-yumereiii.sh && ./install-yumereiii.sh""
 
 ```
 
